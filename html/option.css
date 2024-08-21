@@ -1,0 +1,38 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url('/home/rguktongole/Downloads/option.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.role-button {
+    background-color: #800080; /* Customize the button color */
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.role-button:hover {
+    background-color: #550055; /* Darken on hover */
+}

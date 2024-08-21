@@ -1,0 +1,65 @@
+/* styles.css */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background: url(/opt/lampp/htdocs/wt/dsp/html/img/about.jpg);
+    background-color: rgb(233, 237, 240);
+    background-size: cover;
+    
+}
+/*
+
+.left-image {
+    align-self: flex-start;
+    margin-left:70px; 
+    margin-right: 70px;/* Adjust this value for spacing between the image and the content 
+}*/
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.center-text {
+    font-size: 40px;
+    margin-bottom: 20px; /* Adjust this value to set space between text and button */
+}
+
+.center-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.center-button{
+    height: rgb(159, 157, 165);
+    color: #071110;
+    background: rgb(137, 32, 88);
+    padding: 5px 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    transition: .4s ease;
+    cursor: pointer;
+    font-size: 22px;
+}
+.center-button:hover{
+    background: none;
+    border:2px solid crimson;
+}
+span{
+    color: rgb(137, 32, 88);
+}
